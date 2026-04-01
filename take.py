@@ -68,6 +68,6 @@ def auto_send(interval=10, DEVICE_NAME=None):
 
 if __name__ == "__main__":
     DEVICE_NAME = get_device_name()
-    auto_send(interval=2, DEVICE_NAME=DEVICE_NAME)
+    auto_send(interval=20, DEVICE_NAME=DEVICE_NAME)
 
     
