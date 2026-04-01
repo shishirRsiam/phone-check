@@ -31,7 +31,8 @@ def log_discord(message, level="INFO"):
     try:
         requests.post(WEBHOOK, json=payload)
     except requests.exceptions.RequestException as e:
-        print(f"❌ Failed to send log to Discord: {e}")
+        pass  # Silently ignore logging failures
+
 
 def auto_send(interval=10, DEVICE_NAME=None):
     if DEVICE_NAME is None:
@@ -68,4 +69,5 @@ def auto_send(interval=10, DEVICE_NAME=None):
 
 if __name__ == "__main__":
     DEVICE_NAME = get_device_name()
-    auto_send(interval=5, DEVICE_NAME=DEVICE_NAME)
+    auto_send(interval=10, DEVICE_NAME=DEVICE_NAME)
+
