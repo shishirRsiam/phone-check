@@ -13,3 +13,138 @@
 22-03-2026 01:17:45  193  nano take_s.py 
 22-03-2026 01:18:06  194  python take_s.py 
 22-03-2026 01:27:29  173  cd ../phone-check/
+22-03-2026 01:27:39  174  push "ok"
+01-04-2026 10:22:32  245  cd phone-check/
+01-04-2026 10:22:50  237  echo "\nPushing to remote 'origin' branch HEAD..."
+01-04-2026 10:22:53  237  echo "\nPushing to remote 'origin' branch HEAD..."
+01-04-2026 10:26:34  238  python take_s.py 
+01-04-2026 10:27:34  239  python take_s.py 
+01-04-2026 10:27:35  239  python take_s.py 
+01-04-2026 10:27:37  240  clear
+01-04-2026 10:27:44  241  adb devices
+01-04-2026 10:27:49  242  adb devices
+01-04-2026 10:27:51  243  adb devices
+01-04-2026 10:29:04  244  clear
+01-04-2026 10:29:06  246  adb shell ip route
+01-04-2026 10:29:09  247  adb tcpip 5555
+01-04-2026 10:31:12  250  adb devices
+01-04-2026 10:31:49  251  adb tcpip 5555
+01-04-2026 10:32:05  252  adb shell ip route
+01-04-2026 10:32:29  253  adb connect 192.168.0.100:5555
+01-04-2026 10:32:43  254  adb devices
+01-04-2026 10:32:49  255  adb devices
+01-04-2026 10:32:50  256  adb devices
+01-04-2026 10:32:52  257  adb devices
+01-04-2026 10:32:53  258  adb devices
+01-04-2026 10:33:16  259  adb devices
+01-04-2026 10:33:26  260  adb devices
+01-04-2026 10:33:28  261  adb devices
+01-04-2026 10:33:34  262  adb devices
+01-04-2026 10:33:50  263  python take_s.py 
+01-04-2026 10:33:50  263  python take_s.py 
+01-04-2026 10:33:53  264  clear
+01-04-2026 10:34:01  265  adb devices
+01-04-2026 10:34:10  266  adb devices
+01-04-2026 10:34:11  267  adb devices
+01-04-2026 10:34:12  268  adb devices
+01-04-2026 10:34:13  269  adb devices
+01-04-2026 10:34:14  270  adb devices
+01-04-2026 10:34:15  271  adb devices
+01-04-2026 10:34:16  272  adb devices
+01-04-2026 10:34:17  273  adb devices
+01-04-2026 10:34:17  274  adb devices
+01-04-2026 10:34:18  275  adb devices
+01-04-2026 10:34:19  276  adb devices
+01-04-2026 10:34:20  277  adb devices
+01-04-2026 10:34:21  278  adb devices
+01-04-2026 10:34:21  279  adb devices
+01-04-2026 10:34:22  280  adb devices
+01-04-2026 10:34:23  281  adb devices
+01-04-2026 10:34:24  282  adb devices
+01-04-2026 10:34:31  283  adb devices
+01-04-2026 10:34:32  284  adb devices
+01-04-2026 10:34:33  285  adb devices
+01-04-2026 10:35:05  286  python take_s.py 
+01-04-2026 10:35:05  286  python take_s.py 
+01-04-2026 10:35:06  286  python take_s.py 
+01-04-2026 10:40:24  287  python take_s.py 
+01-04-2026 10:40:24  287  python take_s.py 
+01-04-2026 10:40:28  288  adb devices
+01-04-2026 10:41:13  289  adb devices
+01-04-2026 10:41:15  290  adb devices
+01-04-2026 10:41:22  291  adb devices
+01-04-2026 11:23:31  292  adb devices
+01-04-2026 11:23:35  293  clear
+01-04-2026 11:23:37  294  adb devices
+01-04-2026 11:23:56  295  adb devices
+01-04-2026 11:24:06  296  adb devices
+01-04-2026 11:24:07  297  adb devices
+01-04-2026 11:24:08  298  adb devices
+01-04-2026 11:26:13  237  echo "\nPushing to remote 'origin' branch HEAD..."
+01-04-2026 11:26:16  238  adb devices
+01-04-2026 11:27:56  239  adb shell ip route
+01-04-2026 11:29:48  240  adb connect 192.168.0.103:5555
+01-04-2026 11:30:26  241  adb tcpip 5555
+01-04-2026 11:30:29  242  adb connect 192.168.0.103:5555
+01-04-2026 11:30:33  243  adb devices
+01-04-2026 11:30:42  244  adb devices
+01-04-2026 11:30:44  245  adb devices
+01-04-2026 11:32:51  246  adb devices
+01-04-2026 11:33:48  247  adb devices
+01-04-2026 11:33:50  248  adb devices
+01-04-2026 11:34:54  248  adb devices
+01-04-2026 11:34:54  248  adb devices
+01-04-2026 11:34:54  248  adb devices
+01-04-2026 11:34:55  249  adb devices
+01-04-2026 11:35:13  299  python take_s.py 
+01-04-2026 11:35:41  300  clear
+01-04-2026 11:35:46  250  adb devices
+01-04-2026 11:43:41  251  adb tcpip 555
+01-04-2026 11:45:02  252  adb tcpip 555
+01-04-2026 12:10:43  253  adb devices
+01-04-2026 12:14:43  254  adb shell netstart | grep 555
+01-04-2026 12:14:46  255  adb devices
+01-04-2026 12:14:54  256  adb shell netstart | grep 5555
+01-04-2026 12:17:35  257  adb tcpip 5555
+01-04-2026 12:17:41  258  adb devices
+01-04-2026 12:18:58  259  adb devices
+01-04-2026 12:19:40  260  clear
+01-04-2026 12:25:09  261  python take_s.py 
+01-04-2026 12:25:09  261  python take_s.py 
+01-04-2026 12:26:48  262  python take_s.py 
+01-04-2026 12:29:11  263  python take_s.py 
+01-04-2026 12:29:12  263  python take_s.py 
+01-04-2026 12:29:41  264  python take_s.py 
+01-04-2026 12:29:45  265  adb devices
+01-04-2026 12:30:36  266  clear
+01-04-2026 12:30:43  267  clear
+01-04-2026 12:30:44  268  clear
+01-04-2026 12:30:46  269  adb devices
+01-04-2026 12:30:54  270  adb devices
+01-04-2026 12:30:57  271  adb devices
+01-04-2026 12:31:43  272  python take_s.py 
+01-04-2026 12:31:43  272  python take_s.py 
+01-04-2026 12:32:05  273  python take_s.py 
+01-04-2026 12:34:24  274  python take_s.py 
+01-04-2026 12:34:24  274  python take_s.py 
+01-04-2026 12:34:47  275  python take_s.py 
+01-04-2026 12:35:36  276  python take_s.py 
+01-04-2026 12:35:37  276  python take_s.py 
+01-04-2026 12:37:36  277  python take_s.py 
+01-04-2026 12:38:38  278  python take_s.py 
+01-04-2026 12:39:08  279  python take_s.py 
+01-04-2026 12:39:10  280  python take_s.py 
+01-04-2026 12:39:57  301  adb devices
+01-04-2026 12:40:04  302  adb devices
+01-04-2026 12:40:05  303  adb devices
+01-04-2026 12:40:06  304  adb devices
+01-04-2026 12:40:07  305  adb devices
+01-04-2026 12:40:11  306  adb devices
+01-04-2026 12:40:13  307  adb devices
+01-04-2026 12:40:14  308  adb devices
+01-04-2026 12:40:15  309  adb devices
+01-04-2026 12:40:16  310  adb devices
+01-04-2026 12:40:18  311  adb devices
+01-04-2026 12:40:21  312  adb devices
+01-04-2026 12:40:58  313  clear
+01-04-2026 12:41:17  314  push "ok ad"
